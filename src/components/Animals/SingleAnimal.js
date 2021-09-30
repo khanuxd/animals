@@ -24,13 +24,13 @@ const SingleAnimal = () => {
     if (animal) {
         animalData = (
             <>
-            <div className="animal">
-                <h1>{animal.name}</h1>
-                <img src={animal.img} />
-                <p>{animal.desc}</p>
-                <a href={animal.link} target="_blank">Read More in Wiki</a>
-            </div>
-            <button onClick={() => history.goBack()}>Back to Animals</button>
+                <div className="animal">
+                    <h1>{animal.name}</h1>
+                    <img src={animal.img} alt={animal.name} />
+                    <p>{animal.desc}</p>
+                    <p><a href={animal.link} target="_blank">Read More in Wiki</a></p>
+                </div>
+                <button onClick={() => history.goBack()}>Back to Animals</button>
             </>
         )
     };
