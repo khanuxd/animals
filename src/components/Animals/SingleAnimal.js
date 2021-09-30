@@ -28,7 +28,7 @@ const SingleAnimal = () => {
                     <h1>{animal.name}</h1>
                     <img src={animal.img} alt={animal.name} />
                     <p>{animal.desc}</p>
-                    <p><a href={animal.link} target="_blank">Read More in Wiki</a></p>
+                    <p><a href={animal.link} target="_blank" rel="noreferrer">Read More in Wiki</a></p>
                 </div>
                 <button onClick={() => history.goBack()}>Back to Animals</button>
             </>
