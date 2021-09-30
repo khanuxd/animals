@@ -39,6 +39,30 @@
       "desc": "Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, some of which are closely related. Most of the 60 species of eagle are from Eurasia and Africa.",
       "link": "https://en.wikipedia.org/wiki/Eagle",
       "id": 5
+    },
+    {
+      "name": "Eagle",
+      "aclass": "birds",
+      "img": "https://www.daysoftheyear.com/wp-content/uploads/american-eagle-day1-scaled.jpg",
+      "desc": "afdasfasdfas",
+      "link": "https://en.wikipedia.org/wiki/Eagle",
+      "id": 6
+    },
+    {
+      "name": "Eagle",
+      "aclass": "eptiles",
+      "img": "https://www.daysoftheyear.com/wp-content/uploads/american-eagle-day1-scaled.jpg",
+      "desc": "asdfasdf",
+      "link": "https://en.wikipedia.org/wiki/Eagle",
+      "id": 7
+    },
+    {
+      "name": "Eagle New",
+      "aclass": "birds",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/19/%C3%81guila_calva.jpg",
+      "desc": "Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, some of which are closely related. Most of the 60 species of eagle are from Eurasia and Africa.",
+      "link": "https://en.wikipedia.org/wiki/Eagle",
+      "id": 8
     }
   ]
 }

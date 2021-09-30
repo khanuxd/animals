@@ -87,3 +87,13 @@ label {
   display: block;
   margin-bottom: -1rem;
 }
+
+.animal {
+  display: block;
+  display: flex;
+}
+
+.animal img {
+  height: 200px;
+  margin: 2rem 2rem 0 0;
+}

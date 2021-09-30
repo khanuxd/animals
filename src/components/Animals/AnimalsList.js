@@ -11,7 +11,7 @@ const AnimalsList = ({ animals }) => {
                     aclass={a.aclass}
                     img={a.img}
                     desc={a.desc}
-                    link={a.link}
+                    link={a.id}
                 />
             ))}
         </div>

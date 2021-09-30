@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import AnimalNew from "../Animals/AnimalNew";
 import AnimalsList from "../Animals/AnimalsList";
-
+import { Switch, Route } from "react-router-dom";
 import axios from "axios";
+import SingleAnimal from "../Animals/SingleAnimal";
 
 const Main = () => {
   const [animals, setAnimals] = useState([]);
@@ -11,7 +12,6 @@ const Main = () => {
     aclass: "mammals",
     img: "",
     desc: "",
-    link: "",
   });
 
   useEffect(() => {
@@ -37,8 +37,15 @@ const Main = () => {
 
   return (
     <main>
-      <AnimalsList animals={animals} />
-      <AnimalNew change={valueChangeHandler} submit={submitAnimal} />
+      <Switch>
+        <Route path="/:id">
+          <SingleAnimal />
+        </Route>
+        <Route path="/" exact>
+          <AnimalsList animals={animals} />
+          <AnimalNew change={valueChangeHandler} submit={submitAnimal} />
+        </Route>
+      </Switch>
     </main>
   );
 };
